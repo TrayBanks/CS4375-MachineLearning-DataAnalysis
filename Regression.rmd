@@ -1,0 +1,98 @@
+---
+title: "Regression"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+date: "2023-02-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Regression
+
+### Instructions:
+
+1.  **Create an Rmd notebook, name it Regression, with appropriate headings for your name(s) and date. Throughout the notebook use headings to indicate important steps of the assignment and use text blocks to explain what happens in each code block. Write a paragraph explaining in general terms how linear regression works, and what are its strengths and weaknesses.**
+
+Linear regression is a statistical method for modeling the relationship between a dependent variable and one or more independent variables. It finds the best linear relationship between the variables to make predictions and understand the relationship between them. Its strengths include simplicity, interpretability, and the ability to test hypotheses, estimate effects and make predictions. However, it has limitations including assumptions of linearity, normality, and constant variance of errors, which may not always hold true. Linear regression is also susceptible to overfitting, which can lead to a model that fits the noise in the data instead of the true signal.
+
+Source: <https://www.kaggle.com/datasets/camnugent/california-housing-prices>
+
+2.  **Select a data set from the web that has at least 10K rows and has a target column suitable for regression. List the source of your data in markdown. Perform the following steps with interspersed commentary and code blocks:**
+
+-   Divide into 80/20 train/test
+-   Use at least 5 R functions for data exploration, using the training data
+-   Create at least 2 informative graphs, using the training data
+
+```{r}
+# Load required packages
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(skimr)
+library(corrplot)
+
+# Read CSV file
+data <- read.csv("\\Users\\School\\Documents\\R Stuff\\housing.csv")
+
+# Split data into 80/20 train/test sets
+set.seed(123) # set random seed for reproducibility
+train <- sample_frac(data, 0.8)
+test <- anti_join(data, train)
+
+# Explore the training data using five functions
+summary(train) # summary statistics
+skim(train) # summary statistics and distributions
+correlations <- cor(train[,-ncol(train)])# calculate correlations (excluding target column)
+corrplot(correlations, method = "circle") # correlation plot
+table(train$ocean_proximity) # frequency table of target variable
+# Scatter plot of median house value vs. latitude
+ggplot(train, aes(x = latitude, y = median_house_value)) + 
+  geom_point(alpha = 0.3) +
+  labs(x = "Latitude", y = "Median House Value")
+
+# Histogram of median income
+ggplot(train, aes(x = median_income)) + 
+  geom_histogram(color = "black", fill = "blue", binwidth = 0.5) +
+  labs(x = "Median Income", y = "Count")
+```
+
+-   Build a simple linear regression model (one predictor) and output the summary. Write a thorough explanation of the information in the model summary.
+
+```{r}
+# Build a simple linear regression model using median income as the predictor variable
+lm_model <- lm(median_house_value ~ median_income, data = train)
+
+# Output the summary of the linear regression model
+summary(lm_model)
+
+```
+The summary provides information on the R-squared value (0.47) which shows how much variation in the outcome variable is explained by the predictor variable. The p-value for the predictor variable (median_income) is very small (< 2.2e-16), indicating its significance in predicting median house value. The coefficients and their standard errors are also shown, which can be used to predict the outcome variable based on different values of the predictor variable.
+
+-   Plot the residuals and write a thorough explanation of what the residual plot tells you. Use this source to help you: <https://data.library.virginia.edu/diagnostic-plots/>
+
+```
+{r}
+
+
+```
+-   Build a multiple linear regression model (multiple predictors), output the summary and residual plots.
+-   Build a third linear regression model using a different combination of predictors, interaction effects, polynomial regression, or any combination to try to improve the results. Output the summary and residual plots.
+```
+{r}
+
+
+```
+-   Write a paragraph or more comparing the results. Indicate which model is better and why you think that is the case.
+
+response
+
+-   Using your 3 models, predict and evaluate on the test data using metrics correlation and mse. Compare the results and indicate why you think these results happened.
+
+response
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
