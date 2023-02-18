@@ -8,5 +8,5 @@ Machine Learning Class
  /  [Report](https://github.com/TrayBanks/CS4375/blob/e81425b2cc5d0841fdd260ad1446a9d73bb0f038/Data%20Exploration%20Report.pdf)
 )
  
- Portfolio: Linear Models ([Regression](https://github.com/TrayBanks/CS4375/blob/085faf5c574c8f69907d08886627753fa5a9e851/Regression.rmd) / Classification)
+ Portfolio: Linear Models ([Regression](https://github.com/TrayBanks/CS4375/blob/085faf5c574c8f69907d08886627753fa5a9e851/Regression.rmd) / [Classification](https://github.com/TrayBanks/CS4375/blob/085faf5c574c8f69907d08886627753fa5a9e851/Regression.rmd))
  
