@@ -7,5 +7,5 @@ Machine Learning Class
  Portfolio: C++ data exploration(  [Code](https://github.com/TrayBanks/CS4375/blob/8782256caf538d640b0b4647f5fe229fb954430c/DataExploration.cpp)
  /  [Report](https://github.com/TrayBanks/CS4375/blob/e81425b2cc5d0841fdd260ad1446a9d73bb0f038/Data%20Exploration%20Report.pdf)
 )
- 
+ Portfolio: Linear Models (Regression / Classification)
  
