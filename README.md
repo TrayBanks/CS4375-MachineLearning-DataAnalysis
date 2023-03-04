@@ -11,5 +11,5 @@ Machine Learning Class
  Portfolio: Linear Models ([Regression](https://github.com/TrayBanks/CS4375/blob/085faf5c574c8f69907d08886627753fa5a9e851/Regression.rmd) / [Classification](https://github.com/TrayBanks/CS4375/blob/085faf5c574c8f69907d08886627753fa5a9e851/Regression.rmd))
  
  Portfolio: C++ Algorithms from Scratch
-  ([Regression](https://github.com/TrayBanks/CS4375/blob/f7422dfcf538934eb7e9351d79d02c4d9890f7de/titanicRegression.cpp) / [Naive Bayes]())
+  ([Regression](https://github.com/TrayBanks/CS4375/blob/f7422dfcf538934eb7e9351d79d02c4d9890f7de/titanicRegression.cpp) / [Writing Report](https://github.com/TrayBanks/CS4375/blob/85890e55a5efc33104a97f041331a7cc0efd4cd6/CS4375%20C++%20Algo%20from%20scratch%20research%20report.pdf))
  
