@@ -14,4 +14,4 @@ Machine Learning Class
   ([Regression](https://github.com/TrayBanks/CS4375/blob/f7422dfcf538934eb7e9351d79d02c4d9890f7de/titanicRegression.cpp) / [Writing Report](https://github.com/TrayBanks/CS4375/blob/85890e55a5efc33104a97f041331a7cc0efd4cd6/CS4375%20C++%20Algo%20from%20scratch%20research%20report.pdf))
  
  Portfolio: Similarity and Ensemble
-([Regression]( ) / [Classification]( ) / [Clustering]( ) / [Dimensionality reduction]() / [Writing Report]( ) )
+([Regression](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Regression.pdf ) / [Classification](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Classification.pdf ) / [Clustering](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Notebook_3_Clustering.pdf) / [Dimensionality reduction](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Dimensionality_Reduction.pdf) / [Writing Report](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/CS4375%20Similarity%20and%20Ensemble%20Team%20Project.pdf ) )
