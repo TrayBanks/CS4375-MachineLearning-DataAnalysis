@@ -16,5 +16,5 @@ Machine Learning Class
  Portfolio: Similarity and Ensemble
 ([Regression](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Regression.pdf ) / [Classification](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Classification.pdf ) / [Clustering](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Notebook_3_Clustering.pdf) / [Dimensionality reduction](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Dimensionality_Reduction.pdf) / [Writing Report](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/CS4375%20Similarity%20and%20Ensemble%20Team%20Project.pdf ) )
 
- Portfolio: Python ML with sklearn ([code]( )
+ Portfolio: Python ML with sklearn ([code]( ) )
  
