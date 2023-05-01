@@ -18,4 +18,4 @@ Machine Learning Class
 
  Portfolio: Python ML with sklearn ([code](https://github.com/TrayBanks/CS4375/blob/d9d74fe3d7222eb31feac4876995899e9a88ba63/PythonMLSklearn.py ) )
 
- ([Resume](https://github.com/TrayBanks/CS4375-MachineLearning-DataAnalysis/blob/9fb93e62b31def1b45daac6c94a87a518d06ba34/Trayvon%20Banks%20May2023.pdf ) )
+ [Resume](https://github.com/TrayBanks/CS4375-MachineLearning-DataAnalysis/blob/9fb93e62b31def1b45daac6c94a87a518d06ba34/Trayvon%20Banks%20May2023.pdf  )
