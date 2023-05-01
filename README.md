@@ -17,4 +17,5 @@ Machine Learning Class
 ([Regression](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Regression.pdf ) / [Classification](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Classification.pdf ) / [Clustering](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Notebook_3_Clustering.pdf) / [Dimensionality reduction](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/Dimensionality_Reduction.pdf) / [Writing Report](https://github.com/TrayBanks/CS4375/blob/3903a1294b502b5114e47464112c04e1df1da975/CS4375%20Similarity%20and%20Ensemble%20Team%20Project.pdf ))
 
  Portfolio: Python ML with sklearn ([code](https://github.com/TrayBanks/CS4375/blob/d9d74fe3d7222eb31feac4876995899e9a88ba63/PythonMLSklearn.py ) )
- 
+
+ ([Resume]( ) )
