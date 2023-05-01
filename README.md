@@ -18,7 +18,7 @@ Machine Learning Class
 
  Portfolio: Python ML with sklearn ([code](https://github.com/TrayBanks/CS4375/blob/d9d74fe3d7222eb31feac4876995899e9a88ba63/PythonMLSklearn.py ) )
 
- [Resume](https://github.com/TrayBanks/CS4375-MachineLearning-DataAnalysis/blob/9fb93e62b31def1b45daac6c94a87a518d06ba34/Trayvon%20Banks%20May2023.pdf )
+ [Resume: ](https://github.com/TrayBanks/CS4375-MachineLearning-DataAnalysis/blob/9fb93e62b31def1b45daac6c94a87a518d06ba34/Trayvon%20Banks%20May2023.pdf )
 As a data analyst with a strong focus on data visualization, predictive modeling, and machine learning, I am enthusiastic about exploring the latest developments in this rapidly changing field. I have demonstrated my technical proficiency and problem-solving skills through successful completion of projects in both academic and professional settings. My experience with Python, SQL, and R has enabled me to develop expertise in natural language processing, data exploration, and machine learning techniques such as logistic regression, decision trees, and neural networks. 
 
 In the future, I plan to continue exploring personal projects in this field and staying up-to-date with the latest advancements in machine learning. I am excited about the possibility of employment opportunities that would allow me to apply my skills in a challenging and rewarding environment. I am confident that my experience and passion for machine learning will enable me to make valuable contributions to any organization that values innovation, teamwork, and leadership.
